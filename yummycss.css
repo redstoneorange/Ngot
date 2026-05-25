@@ -1,0 +1,85 @@
+body{
+  background: linear-gradient(315deg,#FF0000,#FF0044 ,#FF0088,#FF00FF,#8800FF,#4400FF,#0000FF);
+  min-height: 100vh;
+}
+header{
+  color: #0055FF;
+  font-family: cursive;
+  font-size: 40px;
+  background-color: #FFAA00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 20px groove #55FF88;
+}
+.header-title{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  background: linear-gradient(270deg,#2080FF,#00FF00,#FFFF00);
+  background-clip: text;
+  color: transparent;
+}
+.h3{
+  color: aqua;
+  font-size: 23px;
+  text-decoration: underline;
+}
+.ps{
+  font-size: 17px;
+  font-weight: bold;
+  color: #EFFF70;
+}
+.sidebar {
+  height: 50%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  background-color: #FFFF00;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  padding: 17px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #797979;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #FF00FF;
+}
+
+.sidebar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+}
+button{
+  border: none;
+}
+
+.sidebar.active {
+  right: 0;
+}
+.cnai {
+  border-bottom: 5px solid navy;
+}
+footer{
+  background: maroon;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: gothic;
+}
+.chokki{
+  color: #FFFFFF;
+}
